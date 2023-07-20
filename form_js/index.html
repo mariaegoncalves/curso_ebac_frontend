@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Validação de formulário</title>
+</head>
+<body>
+    <form onsubmit="return validarFormulario()"> 
+        <!-- esse atributo chama a função -->
+        <label for="campoA">CAMPO A:</label>
+        <br />
+        <input type="number" id="campoA" name="campoA" placeholder="número A" required>
+        <br />
+      
+        <label for="campoB">CAMPO B:</label>
+        <br />
+        <input type="number" id="campoB" name="campoB" placeholder="número B" required>
+        <br />
+      
+        <button type="submit">Enviar</button>
+      </form>
+</body>
+</html>
